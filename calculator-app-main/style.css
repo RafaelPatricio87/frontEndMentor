@@ -1,0 +1,146 @@
+*{
+  font-family: 'League Spartan', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  color: white;
+}
+body{
+  background-color:  hsl(268, 75%, 9%);
+
+}
+.container{
+  margin: 40px auto;
+  background-color:  hsl(268, 75%, 9%);
+  max-width: 490px;
+  min-width: 375px;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  margin-bottom: 30px;
+}
+.geral-tema{
+  display: flex;
+ align-items: flex-end;
+ justify-content: space-between;
+ width: 120px;
+}
+.calc{
+  color: hsl(52, 100%, 62%);
+  font-size: 32px;
+}
+
+.opcoes-temas{
+   width: 55px;
+}
+.num{
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 6px;
+  font-size: 13px;
+  margin-bottom: 3px; 
+}
+.btns{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 12px;
+  padding: 4px 3px;
+  background-color: hsl(223deg, 31%, 20%);
+}
+.btn{
+  border: none;
+  width: 12px;
+  height: 12px;
+  border-radius: 12px;
+  cursor: pointer;
+  background-color: hsl(6deg, 63%, 50%);
+}
+
+.tela{
+  background-color: hsl(268, 71%, 12%);
+  border-radius: 10px;
+  margin-bottom: 20px;
+ 
+}
+.valor-input{
+  font-size: 56px;
+  color: hsl(52, 100%, 62%);
+  padding: 30px 30px;
+  text-align: right;
+  overflow-y: hidden;
+}
+.teclas-item{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  background-color:#1E0836 ;
+  padding: 20px;
+  border-radius: 8px;
+  gap: 10px;
+}
+.tecla{
+  font-size: 30px;
+  border-radius: 8px;
+  border: none;
+   background-color: #331B4D;
+   color: hsl(52, 100%, 62%);
+   padding: 12px;
+   box-shadow: 0 5px 0px 0px #831F9B;
+
+}
+.del{
+  background-color:#56077C ;
+  color: white;
+}
+.reset{
+  grid-column: 1/3;
+  background-color:#56077C ;
+  color: white;
+}
+.igual{
+  grid-column: 3/-1;
+  background-color: #00DECF;
+  box-shadow: 0 5px 0px 0px #6CFAF1;
+  color: #000;
+}
+
+.calc{
+  color: white;
+}
+.tela{
+  background-color:#252D44 ;
+  color: white;
+}
+.valor-input{
+  color: white;
+}
+
+.teclas-item{
+  background-color:#252D44;
+}
+.tecla{
+   background-color:#EAE3DB;
+   color: #484A55;
+   padding: 12px;
+  box-shadow: 0 4px hsl(224deg, 28%, 35%);
+}
+.reset{
+  grid-column: 1/3;
+  background-color:#647299;
+  color: white;
+  box-shadow: 0 4px hsl(224deg, 28%, 35%);
+}
+.igual{
+  color: white;
+  background-color: #D13F30;
+  box-shadow: 0 5px 0px 0px #9E2617;
+}
+.del{
+  background-color:#647299;
+  box-shadow: 0 4px hsl(224deg, 28%, 35%);
+  color: white;
+}

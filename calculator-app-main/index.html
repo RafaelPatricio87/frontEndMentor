@@ -1,26 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="style.css">
+
   <title>Frontend Mentor | Calculator app</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
 
+  <div class="container">
 
+    <header class="header">
+      <div class="calc cor-amarelo">calc</div>
+      <div class="geral-tema">
+        <div class="thema">THEMA</div>
+        <div class="opcoes-temas">
+          <div class="num">
+            <span class="um">1</span>
+            <span class="dois">2</span>
+            <span class="tres">3</span>
+          </div>
+          <div class="btns">
+            <button class="btn"></button>
+            <button class="btn"></button>
+            <button class="btn"></button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="tela">
+        <div class="valor-input">
+          333
+        </div>
+    </section>
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+
+   <section class="container-teclas">
+       <div class="teclas-item">
+          <button class="tecla numero">7</button>
+          <button class="tecla numero">8</button>
+          <button class="tecla numero">9</button>
+          <button class="tecla del">DEL</button>
+
+          <button class="tecla numero">4</button>
+          <button class="tecla numero">5</button>
+          <button class="tecla numero">6</button>
+          <button class="tecla operador">+</button>
+        
+          <button class="tecla numero">1</button>
+          <button class="tecla numero">2</button>
+          <button class="tecla numero">3</button>
+          <button class="tecla operador">-</button>
+          
+          <button class="tecla">.</button>
+          <button class="tecla numero">0</button>
+          <button class="tecla operador">/</button>
+          <button class="tecla operador">x</button>
+
+          <button class="tecla reset">RESET</button>
+          <button class="tecla igual">=</button>
+
+       </div>
+   </section>
   </div>
 </body>
+
 </html>
+<!-- https://github.com/ziss25/calculator-app/tree/master -->
