@@ -4,17 +4,23 @@
   margin: 0;
   box-sizing: border-box;
   font-size: 14px;
-  color: white;
+  /* color: white; */
+}
+button{
+  color: inherit;
 }
 body{
   background-color:  hsl(268, 75%, 9%);
+  color: hsl(52, 100%, 62%);
 
 }
 .container{
   margin: 40px auto;
-  background-color:  hsl(268, 75%, 9%);
   max-width: 490px;
   min-width: 375px;
+}
+.escolha{
+  display: block;
 }
 .header{
   display: flex;
@@ -29,8 +35,8 @@ body{
  justify-content: space-between;
  width: 120px;
 }
+#numers{font-size: 20px;}
 .calc{
-  color: hsl(52, 100%, 62%);
   font-size: 32px;
 }
 
@@ -41,8 +47,9 @@ body{
   display: flex;
   justify-content: space-between;
   margin: 0px 6px;
-  font-size: 13px;
+  font-size: 14px;
   margin-bottom: 3px; 
+  cursor: pointer;
 }
 .btns{
   display: flex;
@@ -62,35 +69,42 @@ body{
 }
 
 .tela{
-  background-color: hsl(268, 71%, 12%);
   border-radius: 10px;
   margin-bottom: 20px;
- 
 }
-.valor-input{
-  font-size: 56px;
-  color: hsl(52, 100%, 62%);
+.bg-tela{
+  background-color: hsl(268, 71%, 12%);
+}
+
+ .valor-input {
+  display: block;
+  font-size: 50px;
   padding: 30px 30px;
   text-align: right;
   overflow-y: hidden;
 }
+
 .teclas-item{
   display: grid;
   grid-template-columns: repeat(4,1fr);
-  background-color:#1E0836 ;
   padding: 20px;
   border-radius: 8px;
   gap: 10px;
 }
-.tecla{
+.buttons-bg{
+  background-color:#1E0836 ;
+
+}
+.teclas-item .tecla{
   font-size: 30px;
   border-radius: 8px;
   border: none;
-   background-color: #331B4D;
-   color: hsl(52, 100%, 62%);
-   padding: 12px;
-   box-shadow: 0 5px 0px 0px #831F9B;
+  padding: 12px;
 
+}
+.tecla{
+  background-color: #331B4D;
+  box-shadow: 0 5px 0px 0px #831F9B; 
 }
 .del{
   background-color:#56077C ;
@@ -108,6 +122,86 @@ body{
   color: #000;
 }
 
+.key-light {
+  background-color: hsl(30deg, 25%, 89%);
+  box-shadow: 0 4px hsl(28deg, 16%, 65%);
+}
+
+.key-blue {
+  background-color: hsl(225deg, 21%, 49%);
+  box-shadow: 0 4px hsl(224deg, 28%, 35%);
+  color: white;
+  font-size: 16px;
+}
+
+
+
+/* MUDANCA DE TEMA */
+
+/*  TEMA DARK */
+.bg-dark-1{
+ background-color:  #17062A;
+}
+.bg-dark-2{
+background-color: #1E0836;
+}
+.bg-dark-3{
+   background-color: #321C4C;
+}
+.bg-dark-4{
+  background-color: #56077C;
+}
+.shadow-dark{
+  box-shadow: 0 5px 0px 0px #802199; 
+}
+.color-dark-1{
+   color: #FFE439;
+}
+
+.bg-gray-1{
+  background-color: #3B4664;
+}
+.bg-gray-2{
+  background-color: #181F32;
+  color: #FDFDFE;
+
+}
+.bg-gray-3{
+  background-color: #252D44;
+}
+.bg-gray-4{
+  background-color: #EAE3DB;
+  color: #454B57;
+  box-shadow: 0 4px hsl(28deg, 16%, 65%);
+}
+.color-gray-1{
+   color: #FDFDFE;
+}
+.bg-ligth-1{
+  background-color:#E6E6E6 ;
+}
+.bg-ligth-2{
+  background-color: #EEEEEE;
+  color: #494842;
+}
+.bg-ligth-3{
+  background-color: #D3CDCD;
+}
+.bg-ligth-4{
+  background-color: #E5E4E0;
+  box-shadow: 0 4px hsl(28deg, 16%, 65%);
+  color:#35342F ;
+}
+.color-ligth-1{
+  color: #494842;
+}
+
+/* 
+
+.container{
+  background-color: #3B4664;
+
+}
 .calc{
   color: white;
 }
@@ -143,4 +237,4 @@ body{
   background-color:#647299;
   box-shadow: 0 4px hsl(224deg, 28%, 35%);
   color: white;
-}
+} */

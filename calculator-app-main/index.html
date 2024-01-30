@@ -10,7 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
-
+  <script defer src="script.js"></script>
   <title>Frontend Mentor | Calculator app</title>
 
 </head>
@@ -20,34 +20,35 @@
   <div class="container">
 
     <header class="header">
-      <div class="calc cor-amarelo">calc</div>
+      <div class="bg-calc "><p class="calc">calc</p></div>
       <div class="geral-tema">
         <div class="thema">THEMA</div>
         <div class="opcoes-temas">
           <div class="num">
-            <span class="um">1</span>
-            <span class="dois">2</span>
-            <span class="tres">3</span>
+            <span id="numers" class="um">1</span>
+            <span id="numers" class="dois">2</span>
+            <span id="numers" class="tres">3</span>
           </div>
-          <div class="btns">
-            <button class="btn"></button>
-            <button class="btn"></button>
-            <button class="btn"></button>
+          <div class="btns ">
+            <button id="btn" class="btn"></button>
+            <button id="btn" class="btn"></button>
+            <button id="btn" class="btn"></button>
           </div>
         </div>
       </div>
     </header>
 
     <section class="tela">
-        <div class="valor-input">
-          333
+        <div class="  bg-tela ">
+          <span class="valor-input">333</span>
         </div>
     </section>
   
 
-   <section class="container-teclas">
-       <div class="teclas-item">
-          <button class="tecla numero">7</button>
+   <section class="container-teclas ">
+      <div class="buttons-bg">
+        <div class="teclas-item bg-buttons">
+          <button class="tecla ">7</button>
           <button class="tecla numero">8</button>
           <button class="tecla numero">9</button>
           <button class="tecla del">DEL</button>
@@ -71,6 +72,7 @@
           <button class="tecla igual">=</button>
 
        </div>
+      </div>
    </section>
   </div>
 </body>
