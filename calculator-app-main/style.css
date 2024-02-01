@@ -146,13 +146,18 @@ body{
 background-color: #1E0836;
 }
 .bg-dark-3{
-   background-color: #321C4C;
+   background-color: #331B4D;
+   color: #FFE439;
+   box-shadow: 0 5px 0px 0px #802199; 
 }
 .bg-dark-4{
   background-color: #56077C;
+  color: white;
 }
-.shadow-dark{
-  box-shadow: 0 5px 0px 0px #802199; 
+.bg-dark-green{
+  background-color:#00DECF ;
+  color: #000;
+  box-shadow: 0 5px 0px 0px #71F7EF; 
 }
 .color-dark-1{
    color: #FFE439;
@@ -177,6 +182,18 @@ background-color: #1E0836;
 .color-gray-1{
    color: #FDFDFE;
 }
+.bg-gray{
+  background-color: #647299;
+  color: white;
+  box-shadow: 0 4px #364160;
+}
+.bg-gray-red{
+  background-color: #D13F30;
+  color: white;
+  box-shadow: 0 4px #622A2D;
+}
+
+
 .bg-ligth-1{
   background-color:#E6E6E6 ;
 }
@@ -195,46 +212,15 @@ background-color: #1E0836;
 .color-ligth-1{
   color: #494842;
 }
-
-/* 
-
-.container{
-  background-color: #3B4664;
+.bg-ligth-green{
+  background-color: #388187;
+  color: white;
+  box-shadow: 0 4px #235C65;
 
 }
-.calc{
+.bg-ligth-orage{
+  background-color: #C85401;
   color: white;
-}
-.tela{
-  background-color:#252D44 ;
-  color: white;
-}
-.valor-input{
-  color: white;
+  box-shadow: 0 4px #833B08;
 }
 
-.teclas-item{
-  background-color:#252D44;
-}
-.tecla{
-   background-color:#EAE3DB;
-   color: #484A55;
-   padding: 12px;
-  box-shadow: 0 4px hsl(224deg, 28%, 35%);
-}
-.reset{
-  grid-column: 1/3;
-  background-color:#647299;
-  color: white;
-  box-shadow: 0 4px hsl(224deg, 28%, 35%);
-}
-.igual{
-  color: white;
-  background-color: #D13F30;
-  box-shadow: 0 5px 0px 0px #9E2617;
-}
-.del{
-  background-color:#647299;
-  box-shadow: 0 4px hsl(224deg, 28%, 35%);
-  color: white;
-} */
