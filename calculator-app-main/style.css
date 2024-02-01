@@ -6,13 +6,14 @@
   font-size: 14px;
   /* color: white; */
 }
-button{
-  color: inherit;
-}
+
 body{
   background-color:  hsl(268, 75%, 9%);
   color: hsl(52, 100%, 62%);
 
+}
+button{
+  color: inherit;
 }
 .container{
   margin: 40px auto;
@@ -57,15 +58,19 @@ body{
   align-items: center;
   border-radius: 12px;
   padding: 4px 3px;
-  background-color: hsl(223deg, 31%, 20%);
+  background-color: #1E0836;
 }
-.btn{
+
+#btn{
   border: none;
   width: 12px;
   height: 12px;
   border-radius: 12px;
   cursor: pointer;
-  background-color: hsl(6deg, 63%, 50%);
+  background: transparent;
+}
+.btns #btn:first-child{
+  background-color: #04DCCB;
 }
 
 .tela{
@@ -122,17 +127,6 @@ body{
   color: #000;
 }
 
-.key-light {
-  background-color: hsl(30deg, 25%, 89%);
-  box-shadow: 0 4px hsl(28deg, 16%, 65%);
-}
-
-.key-blue {
-  background-color: hsl(225deg, 21%, 49%);
-  box-shadow: 0 4px hsl(224deg, 28%, 35%);
-  color: white;
-  font-size: 16px;
-}
 
 
 
