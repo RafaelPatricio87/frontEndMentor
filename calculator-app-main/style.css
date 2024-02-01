@@ -87,6 +87,7 @@ button{
   padding: 30px 30px;
   text-align: right;
   overflow-y: hidden;
+  height: 100px;
 }
 
 .teclas-item{

@@ -12,6 +12,17 @@ const reset = document.querySelector('.reset');
 const igual = document.querySelector('.igual');
 const btn = document.querySelectorAll('.btn')
 
+const numeros = document.querySelectorAll('.numero')
+const input = document.querySelector('.valor-input')
+
+function inputNumeros(e){
+  const valores = e.target.textContent
+  
+  input.innerHTML += valores
+}
+
+numeros.forEach(numero => numero.addEventListener('click',inputNumeros))
+
 
 
 function removerClasse(){
@@ -23,8 +34,6 @@ function removerClasse(){
 
 
 }
-
-
 
 function mostrarTemaLigth(tema){
   if(tema === '1'){
