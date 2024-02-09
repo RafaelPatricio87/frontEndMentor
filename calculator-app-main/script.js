@@ -13,15 +13,48 @@ const igual = document.querySelector('.igual');
 const btn = document.querySelectorAll('.btn')
 
 const numeros = document.querySelectorAll('.numero')
+const ponto = document.querySelector('.ponto')
+const operadores = document.querySelectorAll('.operador')
 const input = document.querySelector('.valor-input')
+const operacao = document.getElementById('igual')
 
+let virgula = false
+let operador = false
+// LOGICA DA CALCULADORA
 function inputNumeros(e){
   const valores = e.target.textContent
-  
   input.innerHTML += valores
+ 
+  operador = false
 }
 
+function inputOperadores(e) {
+  if(!operador){
+    operador = e.target.textContent
+  
+    if(operador == 'x'){
+      operador = '*'
+    }
+    input.innerHTML += operador
+  }
+}
+function inserirPonto(){
+    
+  if(!virgula){
+      input.innerHTML = '0,'
+      virgula = true
+    }
+  
+ }
+ 
+
+function somar(){
+  input.innerHTML = eval(input.innerHTML)
+}
+operacao.addEventListener('click', somar)
+ponto.addEventListener('click', inserirPonto)
 numeros.forEach(numero => numero.addEventListener('click',inputNumeros))
+operadores.forEach(operador => operador.addEventListener('click',inputOperadores))
 
 
 
